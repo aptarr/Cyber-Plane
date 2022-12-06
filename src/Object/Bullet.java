@@ -13,7 +13,7 @@ public class Bullet extends GameObject implements EntityA{
     
     private BufferedImage imageBull;
     private float bulletSpeed = 1f;
-    private int counter = 0;
+//    private int counter = 0;
     
     public Bullet(double x, double y, float bulletSpeed, Controller controller, Game game){
         super(x, y);
@@ -30,11 +30,12 @@ public class Bullet extends GameObject implements EntityA{
             EntityB tempEnt = game.getPlaying().EntityB.get(i);
             
             if(Physics.Collision(this, tempEnt)){
-                counter++;
-                game.getPlaying().getPlayer().setSCORE(counter);
+//                counter += 2;
+//                game.getPlaying().getPlayer().setSCORE(counter);
                 controller.removeEntityB(tempEnt);
                 controller.removeEntityA(this);
                 game.getPlaying().setAlien_killed(game.getPlaying().getAlien_killed() + 1);
+                game.getPlaying().setSCORE(game.getPlaying().getSCORE()+ 1);
             }
         }
 //        if(Physics.Collision(this, game.getPlaying().EntityB)){

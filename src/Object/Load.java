@@ -16,6 +16,7 @@ public class Load {
     public static final String JUDUL = "Image/coba judul.png";
     public static final String GAME_OVER = "Image/coba gameover.png";
     public static final String UE_BUTTON = "Image/coba button2.png";
+    public static final String PAUSED = "Image/coba paused.png";
     
     public static BufferedImage getObject(String fileName){
         BufferedImage image = null;

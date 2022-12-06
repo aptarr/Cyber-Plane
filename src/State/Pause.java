@@ -11,11 +11,11 @@ public class Pause {
     
     private Playing playing;
     private PauseButton unpausedB, exitB;
-//    private BufferedImage backgroundImg;
+    private BufferedImage paused;
     
     public Pause(Playing playing){
         this.playing = playing;
-//        backgroundImg = Load.getObject(Load.BGPS);
+        paused = Load.getObject(Load.PAUSED);
         loadButtons();
     }
     
@@ -33,6 +33,7 @@ public class Pause {
         //background
         g.setColor(new Color(0,0,0, 200));
         g.fillRect(0, 0, 1280, 672);
+        g.drawImage(paused, Sifat.BOARD_WIDTH/2 - 250, 50, 500, 500, null);
         
         //button
         unpausedB.draw(g);

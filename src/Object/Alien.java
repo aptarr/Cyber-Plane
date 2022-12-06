@@ -15,7 +15,6 @@ public class Alien extends GameObject implements EntityB{
     private BufferedImage imageEn;
     private Random r = new Random();
     private double enemySpeed = 1;
-    private int counter = 0;
     
     public Alien(double x, double y, Controller controller, Game game){
         super(x, y);

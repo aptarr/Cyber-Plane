@@ -7,6 +7,8 @@ import Object.EntityA;
 import Object.EntityB;
 import Object.Load;
 import Object.Player;
+import java.awt.Color;
+import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
@@ -24,7 +26,7 @@ public class Playing implements Statemethods{
     private BufferedImage BGP;
     private int alien_count = 15;
     private int alien_killed = 0;
-    public static int HEALTH = 100;
+    private int SCORE = 0; 
     private boolean paused = false;
     private boolean gameOver = false;
     
@@ -76,6 +78,14 @@ public class Playing implements Statemethods{
     public void setAlien_killed(int enemy_killed) {
         this.alien_killed = enemy_killed;
     }
+        
+    public int getSCORE() {
+        return SCORE;
+    }
+    
+    public void setSCORE(int aSCORE) {
+        this.SCORE = aSCORE;
+    }
     
     public void unpauseGame(){
         paused = false;
@@ -88,6 +98,7 @@ public class Playing implements Statemethods{
         EntityB.clear();
         this.alien_count = 15;
         this.alien_killed = 0;
+        this.SCORE = 0;
         controller.addAlien(alien_count);
     }
     
@@ -106,10 +117,11 @@ public class Playing implements Statemethods{
             controller.tick();
 
             if(alien_killed >= alien_count){
-                alien_count += 2;
+                alien_count += 5;
                 alien_killed = 0;
                 controller.addAlien(alien_count);
             }
+
         }else{
             pause.update();
         }
@@ -120,6 +132,9 @@ public class Playing implements Statemethods{
         g.drawImage(BGP, 0, 0, 1280, 672, null);
         player.render(g);
         controller.draw(g);
+        g.setColor(new Color(255,255,255));
+        g.setFont(new Font("Upheaval TT (BRK)", Font.PLAIN, 30));
+        g.drawString("Score : " + SCORE, 30, 30);
         if(paused){
             pause.draw(g);
         }else if(gameOver){

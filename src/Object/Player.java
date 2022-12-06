@@ -3,7 +3,6 @@ package Object;
 import Main.Game;
 import Main.Sifat;
 import State.Playing;
-import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
@@ -18,8 +17,6 @@ public class Player extends GameObject implements EntityA{
     private int aniTick=0, aniIndex=0, aniSpeed = 15;
     private boolean left, up, right, down;
     private float playerSpeed = 5.0f;
-    private int SCORE = 0;
-//    private Font newFont = 
      
     public Player(double x, double y, Game game, Controller controller, Playing playing){
         super(x, y);
@@ -134,18 +131,6 @@ public class Player extends GameObject implements EntityA{
         this.y = 200;
     }
     
-    public int getSCORE() {
-        return SCORE;
-    }
-    
-    public void setSCORE(int aSCORE) {
-        this.SCORE = aSCORE;
-    }
-    
-//    public void drawScore(Graphics2D g2){
-//        g2
-//    }
-    
     @Override
     public void update(){
         if(playing.getGameOver()){
@@ -158,8 +143,6 @@ public class Player extends GameObject implements EntityA{
     
     @Override
     public void render(Graphics g){
-        g.setFont(new Font("TimesRoman", Font.PLAIN, 30));
-        g.drawString("Score : " + SCORE, 10, 20);
         g.drawImage(Ani1[aniIndex], (int) getX(), (int) getY(), Sifat.PLAYER_WIDTH, Sifat.PLAYER_WIDTH, null);
     }
     

@@ -36,6 +36,9 @@ public class Controller {
         for(int i=0; i < entityA.size(); i++){
             TempEntityA = entityA.get(i);
             
+            if(TempEntityA.getX() > 1180)
+                entityA.remove(TempEntityA);
+            
             TempEntityA.update();
         }
         
