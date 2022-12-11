@@ -38,7 +38,7 @@ public class Menu implements Statemethods{
         g.setColor(new Color(50,50,50));
         g.fillRect(0, 0, 1280, 672);
         g.drawImage(BGM, 0, 0, 1280, 672, null);
-        g.drawImage(JUDUL, Sifat.BOARD_WIDTH/2 - 250, 50, 500, 300, null);
+        g.drawImage(JUDUL, Sifat.BOARD_WIDTH/2 - 250, 50, 500, 400, null);
         for(MenuButton mb : button)
            mb.draw(g);
     }

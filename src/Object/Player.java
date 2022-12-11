@@ -150,8 +150,4 @@ public class Player extends GameObject implements EntityA{
     public Rectangle getBounds() {
         return new Rectangle ((int) x, (int) y, Sifat.PLAYER_WIDTH, Sifat.PLAYER_HEIGHT);
     }
-
-    private Object getFont() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 }

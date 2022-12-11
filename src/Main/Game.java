@@ -4,6 +4,7 @@ import State.Gamestate;
 import State.Menu;
 import State.Playing;
 import java.awt.Graphics;
+import java.io.IOException;
 
 public class Game implements Runnable{
     
@@ -16,7 +17,7 @@ public class Game implements Runnable{
     private Playing playing;
     private Menu menu;
     
-    public Game(){
+    public Game() throws IOException{
 //        System.out.println("Cek");
         initClass();        
         
@@ -27,7 +28,7 @@ public class Game implements Runnable{
         startGameLoop();
     }
     
-    private void initClass(){
+    private void initClass() throws IOException{
         menu = new Menu(this);
         playing = new Playing(this);
         

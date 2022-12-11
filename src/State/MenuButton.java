@@ -1,6 +1,5 @@
 package State;
 
-import Main.Sifat;
 import Object.Load;
 import java.awt.Graphics;
 import java.awt.Rectangle;

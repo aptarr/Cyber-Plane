@@ -17,6 +17,10 @@ public class Load {
     public static final String GAME_OVER = "Image/coba gameover.png";
     public static final String UE_BUTTON = "Image/coba button2.png";
     public static final String PAUSED = "Image/coba paused.png";
+    public static final String BGS1 = "Image/Starscape00.png";
+    public static final String BGS2 = "Image/Starscape01.png";
+    public static final String BGS3 = "Image/Starscape02.png";
+    public static final String BGS4 = "Image/Starscape03.png";
     
     public static BufferedImage getObject(String fileName){
         BufferedImage image = null;

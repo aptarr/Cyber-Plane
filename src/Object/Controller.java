@@ -2,6 +2,7 @@ package Object;
 
 import Main.Game;
 import java.awt.Graphics;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Random;
 
@@ -9,7 +10,7 @@ public class Controller {
     
     private Random r = new Random();
   
-    LinkedList<EntityA> entityA = new LinkedList<>();
+    ArrayList<EntityA> entityA = new ArrayList<>();
     LinkedList<EntityB> entityB = new LinkedList<>();
     
     EntityA TempEntityA;
@@ -28,7 +29,7 @@ public class Controller {
     
     public void addAlien(int alien_count){
         for(int i=0; i < alien_count; i++){
-            addEntityB(new Alien(1280, r.nextInt(600), this, game));
+            addEntityB(new Alien(1280, r.nextInt(600), this, game, (int)r.nextDouble(2) + 1));
         }
     }
     
@@ -79,7 +80,7 @@ public class Controller {
         entityB.remove(object);
     }
     
-    public LinkedList<EntityA> getEntityA(){
+    public ArrayList<EntityA> getEntityA(){
         return entityA;
     }
     

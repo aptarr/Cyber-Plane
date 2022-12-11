@@ -16,10 +16,11 @@ public class Alien extends GameObject implements EntityB{
     private Random r = new Random();
     private double enemySpeed = 1;
     
-    public Alien(double x, double y, Controller controller, Game game){
+    public Alien(double x, double y, Controller controller, Game game, double enemySpeed){
         super(x, y);
         this.game = game;
         this.controller = controller;
+        this.enemySpeed = enemySpeed;
         
         imageEn = Load.getObject(Load.ENEMY);
     }
