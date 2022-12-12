@@ -206,9 +206,11 @@ public abstract class GameObject {
 //    public Game game;
     
     public GameObject(double x, double y){
+    
         this.x = x;
         this.y = y;
 //        this.game = game;
+    
     }
     
     public void render(Graphics g){
