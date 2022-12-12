@@ -109,7 +109,8 @@ public void draw(Graphics g) {
 
     ...
     
-    player.render(g);
+    GameObject[] Kplayer = {player};
+    Kplayer[0].render(g);
     
     ...
 }
