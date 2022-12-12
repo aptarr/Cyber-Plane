@@ -265,8 +265,8 @@ public class Playing implements Statemethods{
         g.drawImage(BGS2, getBackPos2(), 0, 3240, 672, null);
         g.drawImage(BGS3, getBackPos3(), 0, 3240, 672, null);
         g.drawImage(BGS4, getBackPos4(), 0, 3240, 672, null);
-//        GameObject[] Kplayer = {player};
-        player.render(g);
+        GameObject[] Kplayer = {player};
+        Kplayer[0].render(g);
         controller.draw(g);
         g.setColor(new Color(255,255,255));
         g.setFont(new Font("Upheaval TT (BRK)", Font.PLAIN, 30));
