@@ -15,6 +15,10 @@ REFRENSI
 
 https://www.youtube.com/watch?v=6_N8QZ47toY&list=PL4rzdwizLaxYmltJQRjq18a9gsSyEQQ-0
 
+PRESENTASI
+
+https://youtu.be/HtH58N9XQ6g
+
 PENERAPAN OOP
 
 1. Casting/Conversion
@@ -113,19 +117,6 @@ public void draw(Graphics g) {
     Kplayer[0].render(g);
     
     ...
-}
-
-//GameObject
-public void render(Graphics g){
-
-    g.fillRect((int) getX(), (int) getY(), 100, 100);
-}
-
-//Player
-@Override
-public void render(Graphics g){
-
-    g.drawImage(Ani1[aniIndex], (int) getX(), (int) getY(), Sifat.PLAYER_WIDTH, Sifat.PLAYER_WIDTH, null);
 }
 
 8. ArrayList
