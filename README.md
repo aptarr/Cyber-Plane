@@ -7,11 +7,21 @@ POSTER GAME
 
 ![poster game](https://user-images.githubusercontent.com/116022017/207309698-15590714-5aaa-4c9c-a204-2ae1d9ee8831.png)
 
+![poster game1](https://user-images.githubusercontent.com/116022017/207321206-8b964b56-bbca-4a88-bda2-2b6abebbede4.png)
+
+MENU
+
 ![image](https://user-images.githubusercontent.com/116022017/206915405-9405dbf7-6121-4740-b2d0-6172c2be588e.png)
+
+GAWEPLAY
 
 ![image](https://user-images.githubusercontent.com/116022017/206915446-1b3740eb-f56d-4751-beef-e08205099cd9.png)
 
+PAUSED
+
 ![image](https://user-images.githubusercontent.com/116022017/206915430-60911cef-29e6-4b88-90a6-34191c53daf2.png)
+
+GAME OVER
 
 ![image](https://user-images.githubusercontent.com/116022017/206915470-e6115c47-a020-4f02-b257-475e95febe12.png)
 
