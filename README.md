@@ -7,7 +7,9 @@ POSTER GAME
 
 ![poster game](https://user-images.githubusercontent.com/116022017/207309698-15590714-5aaa-4c9c-a204-2ae1d9ee8831.png)
 
-![poster game1](https://user-images.githubusercontent.com/116022017/207321206-8b964b56-bbca-4a88-bda2-2b6abebbede4.png)
+
+![poster game1](https://user-images.githubusercontent.com/116022017/207321871-b6945cb0-fc4b-4873-ab09-92b1ce910dba.png)
+
 
 MENU
 
