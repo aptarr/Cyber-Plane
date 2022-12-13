@@ -27,6 +27,8 @@ https://www.deviantart.com/prinzeugn/art/Airplane-Sprite-Animation-74413240
 
 https://www.freepik.com/premium-vector/interface-menu-buttons-pixel-art-set-menu-panel-collection-play-pause-store-settings-options_33531434.htm#query=pixel%20art%20music&position=7&from_view=keyword
 
+https://id.pinterest.com/pin/532972937153703127/
+
 PRESENTASI
 
 https://youtu.be/HtH58N9XQ6g
