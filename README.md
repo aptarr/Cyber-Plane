@@ -3,6 +3,10 @@ Apta Rasendriya Wijaya - 5025211139
 
 Game pesawat melawan alien, dimana pesawat harus dapat mengeliminasi pesawat musuh sehingga terhindar dari tabrakan karena jika tertabrak maka game akan selesai, ide ini hampir sama SPACE INVADER pada https://zetcode.com/javagames/ tetapi bisa digerakkan secara vertikal maupun horizontal. Untuk cara memain kan game semua menggunakan input keyboard seperti W untuk kearah atas, A untuk kearah kiri, S untuk kearah bawah, D untuk kearah kanan, SPACE untuk menembak, dan ESC untuk pause game. Selain itu, musuh keluar dari arah horizontal bagian kanan dan tidak menyerang sedangkan pesawat kita dapat menembak. Lalu terdapat point untung menghitung berapa banyak pesawat yang telah di hancurkan berserta highscore yang pernah dicapai.
 
+POSTER GAME
+
+![poster game](https://user-images.githubusercontent.com/116022017/207309698-15590714-5aaa-4c9c-a204-2ae1d9ee8831.png)
+
 ![image](https://user-images.githubusercontent.com/116022017/206915405-9405dbf7-6121-4740-b2d0-6172c2be588e.png)
 
 ![image](https://user-images.githubusercontent.com/116022017/206915446-1b3740eb-f56d-4751-beef-e08205099cd9.png)
