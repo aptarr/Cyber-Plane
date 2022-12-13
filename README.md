@@ -162,27 +162,23 @@ private BufferedImage BGS4;
 
 11. Interface
 
-Folder : Main
+Folder : Object
 
-File : Sifat.java
-    
-public interface Sifat {
-    
-    int BOARD_WIDTH = 1280;
-    int BOARD_HEIGHT = 672;
+File : EntityA.java dan Player.java
 
-    int BULLET_HEIGHT = 30;
-    int BULLET_WIDTH = 50;
+public class Player extends GameObject implements EntityA{
 
-    int ALIEN_HEIGHT = 80;
-    int ALIEN_WIDTH = 80;
-    int ALIEN_RECTANGLE = 40;
-    int ALIEN_INIT_X = 150;
-    int ALIEN_INIT_Y = 5;
+    ...
+}
     
-    int PLAYER_WIDTH = 110;
-    int PLAYER_HEIGHT = 100;
-    int PLAYER_SIZE = 58;
+public interface EntityA {
+
+    public void update();
+    public void render(Graphics g);
+    public Rectangle getBounds();
+    
+    public double getX();
+    public double getY();
 }
 
 12. Abstract Class
